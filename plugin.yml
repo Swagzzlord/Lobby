@@ -1,0 +1,40 @@
+main: net.minewars.lobby.main.Lobby
+name : Lobby
+version: 1.0.0
+author: Swagzzlord
+commands:
+  navi:
+    usage: /navi
+    description: Füge ein Spawn im Navigator hinzu
+  gui:
+    usage: /gui
+    description: Oeffnet die Servergui für den Type
+  setspawn:
+    usage: /setspawn
+    description: Setzt den Spawn
+  build:
+    usage: /build
+    description: Setzt dich in den Baumodus
+  boots:
+    usage: /boots
+    description: oeffnet das Bootsinv
+    
+Permissions:
+    lobby.admin: true
+    lobby.srdev: true
+    lobby.headbuilder: true
+    lobby.build: true
+    lobby.srmod: true
+    lobby.mod: true
+    lobby.dev: true
+    lobby.content: true
+    lobby.sup: true
+    lobby.youtuber: true
+    lobby.premium+: true
+    lobby.elite: true
+    lobby.mwler: true
+    lobby.premium: true
+    lobby.team: true
+    lobby.silentlobby: true
+    lobby.nick: true
+    lobby.bangui: true
